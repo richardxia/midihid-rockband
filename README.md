@@ -22,5 +22,8 @@ TODO
 ----
 * Fix bug regarding incorrect notes when HID events are interleaved
 * Cleanly separate the output MIDI notes for cleaner customization
-* Create a MIDI note event for pressing/releasing high-hat pedal by itself
 * Add a mode for double bass with the hi hat
+
+DONE
+----
+* Create a MIDI note event for pressing/releasing high-hat pedal by itself
