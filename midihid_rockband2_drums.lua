@@ -115,7 +115,9 @@ function send_note(name, value)
 				note_num = 43 -- low tom 1
 			end
 		elseif name == BASS_PEDAL then
-			note_num = 36 -- base drum
+			note_num = 36 -- bass drum
+    elseif name == HI_HAT_PEDAL then
+      note_num = 42 -- hi hat hit with foot pedal, ie closed hi hat
 		end
 		
 	     if note_on then
